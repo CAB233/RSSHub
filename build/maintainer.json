@@ -69,6 +69,12 @@
     "/52hrtt/:area?/:type?": [
         "nczitzk"
     ],
+    "/7mmtv/:language?/:category?/:type?": [
+        "nczitzk"
+    ],
+    "/7mmtv/:language?/:category?/:id?": [
+        "nczitzk"
+    ],
     "/8kcos/": [
         "KotoriK"
     ],
@@ -642,6 +648,18 @@
     ],
     "/eastday/sh": [
         "saury"
+    ],
+    "/economist/download": [
+        "nczitzk"
+    ],
+    "/economist/espresso": [
+        "TonyRL"
+    ],
+    "/economist/gre-vocabulary": [
+        "xyqfer"
+    ],
+    "/economist/:endpoint": [
+        "ImSingee"
     ],
     "/ecust-jxjy/ecust-jxjy/news": [
         "jialinghui"
@@ -1823,6 +1841,12 @@
     "/pku/scc/recruit/:type?": [
         "DylanXie123"
     ],
+    "/playno1/av/:catid?": [
+        "TonyRL"
+    ],
+    "/playno1/st/:catid?": [
+        "TonyRL"
+    ],
     "/polkaworld/polkaworld/newest": [
         "iceqing"
     ],
@@ -1844,6 +1868,9 @@
     ],
     "/qidiantu/shouding": [
         "nczitzk"
+    ],
+    "/qipamaijia/:cate?": [
+        "Fatpandac"
     ],
     "/qm120/news/:category?": [
         "nczitzk"
@@ -2492,6 +2519,12 @@
         "hondajojo",
         "jtsang4"
     ],
+    "/xiaozhuanlan/column/:id": [
+        "TonyRL"
+    ],
+    "/xidian/jwc/:category?": [
+        "ShadowySpirits"
+    ],
     "/xueqiu/favorite/:id": [
         "imlonghao"
     ],
@@ -3039,7 +3072,6 @@
     "/dgtle/trade/search/:keyword": [],
     "/chouti/top/:hour?": [],
     "/chouti/:subject?": [],
-    "/xidian/jwc/:category?": [],
     "/westore/new": [],
     "/oilprice/:area": [],
     "/nhentai/search/:keyword/:mode?": [],
@@ -3282,9 +3314,6 @@
     "/saraba1st/thread/:tid": [],
     "/gradcafe/result/:type": [],
     "/gradcafe/result": [],
-    "/the-economist/download": [],
-    "/the-economist/gre-vocabulary": [],
-    "/the-economist/:endpoint": [],
     "/shuhui/comics/:id": [],
     "/asahi/area/:id": [],
     "/asahi/:genre?/:category?": [],
@@ -3805,7 +3834,6 @@
     "/gov/chinatax/latest": [],
     "/lizhi/user/:id": [],
     "/futunn/highlights": [],
-    "/waijiedanao/article/:caty": [],
     "/netease/news/special/:type?": [],
     "/netease/dy/:id": [],
     "/netease/dy2/:id": [],
