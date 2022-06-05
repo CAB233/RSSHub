@@ -827,6 +827,42 @@
       }
     ]
   },
+  "asiantolick.com": {
+    "_name": "Asian to lick",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/picture.html#asian-to-lick-shou-ye",
+        "source": [
+          "/"
+        ],
+        "target": "/asiantolick"
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/picture.html#asian-to-lick-fen-lei",
+        "source": [
+          "/"
+        ]
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/picture.html#asian-to-lick-biao-qian",
+        "source": [
+          "/"
+        ]
+      },
+      {
+        "title": "搜索",
+        "docs": "https://docs.rsshub.app/picture.html#asian-to-lick-sou-suo",
+        "source": [
+          "/search/:keyword",
+          "/"
+        ],
+        "target": "/asiantolick/search/:keyword?"
+      }
+    ]
+  },
   "asus.com.cn": {
     "_name": "Asus 华硕",
     ".": [
@@ -3475,6 +3511,20 @@
       }
     ]
   },
+  "getitfree.cn": {
+    "_name": "正版中国",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/shopping.html#zheng-ban-zhong-guo-fen-lei",
+        "source": [
+          "/category/:category",
+          "/"
+        ],
+        "target": "/getitfree/:category?"
+      }
+    ]
+  },
   "sunborngame.com": {
     "_name": "少女前线",
     ".": [
@@ -3486,6 +3536,43 @@
           "/"
         ],
         "target": "/gf-cn/news/:category?"
+      }
+    ]
+  },
+  "gitee.com": {
+    "_name": "Gitee",
+    ".": [
+      {
+        "title": "仓库 Releases",
+        "link": "https://docs.rsshub.app",
+        "source": [
+          "/:owner/:repo/releases"
+        ],
+        "target": "/gitee/releases/:owner/:repo"
+      },
+      {
+        "title": "仓库提交",
+        "link": "https://docs.rsshub.app",
+        "source": [
+          "/:owner/:repo/commits"
+        ],
+        "target": "/gitee/commits/:owner/:repo"
+      },
+      {
+        "title": "用户公开动态",
+        "link": "https://docs.rsshub.app",
+        "source": [
+          "/:username"
+        ],
+        "target": "/gitee/events/:username"
+      },
+      {
+        "title": "仓库动态",
+        "link": "https://docs.rsshub.app",
+        "source": [
+          "/:owner/:repo"
+        ],
+        "target": "/gitee/events/:owner/:repo"
       }
     ]
   },
@@ -3861,6 +3948,19 @@
         "docs": "https://docs.rsshub.app/government.html#bei-jing-shi-wei-sheng-jian-kang-wei-yuan-hui",
         "source": "/xwzx_20031/:caty",
         "target": "/gov/beijing/mhc/:caty"
+      }
+    ]
+  },
+  "customs.gov.cn": {
+    "_name": "中华人民共和国海关总署",
+    "www": [
+      {
+        "title": "拍卖信息 / 海关法规",
+        "docs": "https://docs.rsshub.app/government.html#zhong-hua-ren-min-gong-he-guo-hai-guan-zong-shu",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/customs/list"
       }
     ]
   },
@@ -8175,6 +8275,29 @@
       }
     ]
   },
+  "pincong.rocks": {
+    "_name": "品葱",
+    ".": [
+      {
+        "title": "发现",
+        "docs": "https://docs.rsshub.app/bbs.html#pin-cong",
+        "source": "/"
+      },
+      {
+        "title": "精选",
+        "docs": "https://docs.rsshub.app/bbs.html#pin-cong",
+        "source": [
+          "/hot/:category"
+        ]
+      },
+      {
+        "title": "话题",
+        "docs": "https://docs.rsshub.app/bbs.html#pin-cong",
+        "source": "/topic/:topic",
+        "target": "/pincong/topic/:topic"
+      }
+    ]
+  },
   "pku.edu.cn": {
     "_name": "北京大学",
     "admission": [
@@ -9754,6 +9877,19 @@
       }
     ]
   },
+  "tiktok.com": {
+    "_name": "TikTok",
+    ".": [
+      {
+        "title": "User",
+        "docs": "https://docs.rsshub.app/en/social-media.html#tiktok",
+        "source": [
+          "/:user"
+        ],
+        "target": "/tiktok/user/:user"
+      }
+    ]
+  },
   "timednews.com": {
     "_name": "时刻新闻",
     ".": [
@@ -10676,6 +10812,29 @@
       {
         "title": "人事处",
         "docs": "https://docs.rsshub.app/university.html#xi-an-li-gong-da-xue"
+      }
+    ]
+  },
+  "xiaohongshu.com": {
+    "_name": "小红书",
+    ".": [
+      {
+        "title": "用户笔记",
+        "docs": "https://docs.rsshub.app/social-media.html#xiao-hong-shu",
+        "source": "/user/profile/:user_id",
+        "target": "/xiaohongshu/user/:user_id/notes"
+      },
+      {
+        "title": "用户专辑",
+        "docs": "https://docs.rsshub.app/social-media.html#xiao-hong-shu",
+        "source": "/user/profile/:user_id",
+        "target": "/xiaohongshu/user/:user_id/album"
+      },
+      {
+        "title": "专辑",
+        "docs": "https://docs.rsshub.app/social-media.html#xiao-hong-shu",
+        "source": "/board/:board_id",
+        "target": "/xiaohongshu/board/:board_id"
       }
     ]
   },
