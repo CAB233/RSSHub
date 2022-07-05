@@ -514,6 +514,27 @@
       }
     ]
   },
+  "acfun.cn": {
+    "_name": "AcFun",
+    "www": [
+      {
+        "tilte": "番剧",
+        "docs": "https://docs.rsshub.app/anime.html#acfun-fan-ju",
+        "source": "/bangumi/:id"
+      },
+      {
+        "title": "用户投稿",
+        "docs": "https://docs.rsshub.app/anime.html#acfun-yong-hu-tou-gao",
+        "source": "/u/:id",
+        "target": "/acfun/user/video/:id"
+      },
+      {
+        "title": "文章",
+        "docs": "https://docs.rsshub.app/anime.html#acfun",
+        "source": "/v/:categoryId/index.htm"
+      }
+    ]
+  },
   "ecnu.edu.cn": {
     "_name": "ACM-ECNU",
     "acm": [
@@ -1822,6 +1843,18 @@
       }
     ]
   },
+  "chinadegrees.com.cn": {
+    "_name": "中华人民共和国学位证书查询",
+    ".": [
+      {
+        "title": "各学位授予单位学位证书上网进度",
+        "docs": "https://docs.rsshub.app/study.html#zhong-hua-ren-min-gong-he-guo-xue-wei-zheng-shu-cha-xun",
+        "source": [
+          "/help/*province"
+        ]
+      }
+    ]
+  },
   "chinafactcheck.com": {
     "_name": "有据",
     ".": [
@@ -2238,6 +2271,18 @@
           "/category/:category/"
         ],
         "target": "/ddosi/category/:category"
+      }
+    ]
+  },
+  "dgjyw.com": {
+    "_name": "东莞教研网",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/other.html#dong-guan-jia-yan-wang-fen-lei",
+        "source": [
+          "/"
+        ]
       }
     ]
   },
@@ -4350,9 +4395,21 @@
     ".": [
       {
         "title": "分类",
-        "docs": "https://docs.rsshub.app/government.html#nrta-gov",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-guang-bo-dian-shi-zong-ju",
         "source": [
           "/col/*category"
+        ]
+      }
+    ]
+  },
+  "nmpa.gov.cn": {
+    "_name": "国家药品监督管理局",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-yao-pin-jian-du-guan-li-ju",
+        "source": [
+          "/*path"
         ]
       }
     ]
@@ -4713,6 +4770,12 @@
         "docs": "https://docs.rsshub.app/university.html#hang-zhou-dian-zi-ke-ji-da-xue",
         "source": "/6738/list.htm",
         "target": "/hdu/cs"
+      },
+      {
+        "title": "杭电计算机-研究生通知",
+        "docs": "https://docs.rsshub.app/university.html#hang-zhou-dian-zi-ke-ji-da-xue",
+        "source": "/6769/list.htm",
+        "target": "/hdu/cs/pg"
       }
     ]
   },
@@ -8863,6 +8926,35 @@
           "/*path"
         ]
       }
+    ],
+    "ss": [
+      {
+        "title": "软微-通知公告",
+        "docs": "https://docs.rsshub.app/university.html#bei-jing-da-xue",
+        "source": [
+          "/index.php/newscenter/notice",
+          "/"
+        ],
+        "target": "/pku/ss/notice"
+      },
+      {
+        "title": "软微-招生通知",
+        "docs": "https://docs.rsshub.app/university.html#bei-jing-da-xue",
+        "source": [
+          "/admission/admnotice",
+          "/"
+        ],
+        "target": "/pku/ss/admission"
+      },
+      {
+        "title": "软微-硕士统考招生",
+        "docs": "https://docs.rsshub.app/university.html#bei-jing-da-xue",
+        "source": [
+          "/admission/admbrochure/admission01",
+          "/"
+        ],
+        "target": "/pku/ss/pgadmin"
+      }
     ]
   },
   "playno1.com": {
@@ -9672,6 +9764,19 @@
         "source": [
           "/forum/:id"
         ]
+      }
+    ]
+  },
+  "slowmist.com": {
+    "_name": "慢雾科技 SLOWMIST",
+    ".": [
+      {
+        "title": "动态",
+        "docs": "https://docs.rsshub.app/new-media.html#man-wu-ke-ji",
+        "source": [
+          "/zh/news.html"
+        ],
+        "target": "/slowmist/:type?"
       }
     ]
   },
@@ -13614,22 +13719,6 @@
         "title": "内容",
         "docs": "https://docs.rsshub.app/government.html#guo-jia-xin-wen-chu-ban-shu",
         "source": "/nppa/contents/:channel/:content"
-      }
-    ]
-  },
-  "acfun.cn": {
-    "_name": "AcFun",
-    "www": [
-      {
-        "tilte": "番剧",
-        "docs": "https://docs.rsshub.app/anime.html#acfun-fan-ju",
-        "source": "/bangumi/:id"
-      },
-      {
-        "title": "用户投稿",
-        "docs": "https://docs.rsshub.app/anime.html#acfun-yong-hu-tou-gao",
-        "source": "/u/:id",
-        "target": "/acfun/user/video/:id"
       }
     ]
   },

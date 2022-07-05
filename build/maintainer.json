@@ -55,7 +55,8 @@
     ],
     "/36kr/search/article/:keyword": [
         "xyqfer",
-        "kt286"
+        "kt286",
+        "nczitzk"
     ],
     "/36kr/user/:uid": [
         "nczitzk"
@@ -113,6 +114,15 @@
     ],
     "/abskoop/": [
         "zhenhappy"
+    ],
+    "/acfun/article/:categoryId/:sortType?/:timeRange?": [
+        "TonyRL"
+    ],
+    "/acfun/bangumi/:id": [
+        "xyqfer"
+    ],
+    "/acfun/user/video/:uid": [
+        "wdssmq"
     ],
     "/acm-ecnu/contest/:category?": [
         "a180285"
@@ -394,6 +404,9 @@
     "/chinacef/portal/hot": [
         "kdanfly"
     ],
+    "/chinadegrees/:province?": [
+        "TonyRL"
+    ],
     "/chinafactcheck/": [
         "kdanfly"
     ],
@@ -493,6 +506,9 @@
     ],
     "/ddosi/category/:category": [
         "XinRoom"
+    ],
+    "/dgjyw/:category?": [
+        "nczitzk"
     ],
     "/dhu/jiaowu/news/:type?": [
         "KiraKiseki"
@@ -985,6 +1001,9 @@
     "/gov/moe/:type": [
         "Crawler995"
     ],
+    "/gov/nmpa/:path+": [
+        "TonyRL"
+    ],
     "/gov/nrta/news/:category?": [
         "yuxinliu-alex"
     ],
@@ -1105,6 +1124,9 @@
         "nczitzk"
     ],
     "/hdu/cs": [
+        "legr4ndk"
+    ],
+    "/hdu/cs/pg": [
         "legr4ndk"
     ],
     "/hellobtc/information/:channel?": [
@@ -1744,6 +1766,9 @@
     "/neea/:type?": [
         "SunShinenny"
     ],
+    "/netease/exclusive/:id?": [
+        "nczitzk"
+    ],
     "/netease/renjian/:category?": [
         "nczitzk"
     ],
@@ -2009,6 +2034,15 @@
     ],
     "/pku/scc/recruit/:type?": [
         "DylanXie123"
+    ],
+    "/pku/ss/notice": [
+        "legr4ndk"
+    ],
+    "/pku/ss/admission": [
+        "legr4ndk"
+    ],
+    "/pku/ss/pgadmin": [
+        "legr4ndk"
     ],
     "/playno1/av/:catid?": [
         "TonyRL"
@@ -3341,8 +3375,6 @@
     "/nhentai/search/:keyword/:mode?": [],
     "/nhentai/:key/:keyword/:mode?": [],
     "/ltaaa/:category?": [],
-    "/acfun/bangumi/:id": [],
-    "/acfun/user/video/:uid": [],
     "/autotrader/:query": [],
     "/geekpark/breakingnews": [],
     "/baidu/doodles": [],
@@ -4069,7 +4101,6 @@
     "/law/dh": [],
     "/law/jctd": [],
     "/samsungmembers/latest": [],
-    "/dgjyw/:type": [],
     "/gov/caict/bps": [],
     "/gov/caict/qwsj": [],
     "/gov/caict/caictgd": [],
