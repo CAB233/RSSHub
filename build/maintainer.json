@@ -132,6 +132,9 @@
     "/35photo/new": [
         "nczitzk"
     ],
+    "/36kr/hot-list/:category?": [
+        "nczitzk"
+    ],
     "/36kr/information/:category?": [
         "nczitzk"
     ],
@@ -938,6 +941,9 @@
     "/cas/iee/kydt": [
         "nczitzk"
     ],
+    "/cas/is/:path+": [
+        "Misaka13514"
+    ],
     "/cas/mesalab/kb": [
         "renzhexigua"
     ],
@@ -1303,6 +1309,9 @@
     ],
     "/cuc/yz": [
         "niuyi1017"
+    ],
+    "/curiouscat/user/:id": [
+        "lucasew"
     ],
     "/curius/links/:name": [
         "Ovler-Young"
@@ -1969,6 +1978,9 @@
         "MoguCloud",
         "StevenRCE0"
     ],
+    "/gcores/collections/:collection": [
+        "kudryavka1013"
+    ],
     "/gcores/radios/:category?": [
         "eternasuno"
     ],
@@ -2116,6 +2128,10 @@
     ],
     "/gov/ccdi/:path+": [
         "bigfei"
+    ],
+    "/gov/chinatax/latest": [
+        "nczitzk",
+        "fuzy112"
     ],
     "/gov/cmse/xwzx/zhxw": [
         "nczitzk"
@@ -2521,6 +2537,14 @@
     "/hex-rays/news": [
         "hellodword ",
         "TonyRL"
+    ],
+    "/hinatazaka46/news": [
+        "crispgm",
+        "akashigakki"
+    ],
+    "/hinatazaka46/blog/:id?": [
+        "nwindz",
+        "akashigakki"
     ],
     "/hit/hitgs": [
         "hlmu"
@@ -3845,8 +3869,9 @@
         "crispgm",
         "Fatpandac"
     ],
-    "/nogizaka46/blog": [
-        "Kasper4649"
+    "/nogizaka46/blog/:id?": [
+        "Kasper4649",
+        "akashigakki"
     ],
     "/notateslaapp/ota": [
         "mrbruce516"
@@ -4452,6 +4477,9 @@
     "/radio-canada/latest/:language?": [
         "nczitzk"
     ],
+    "/radiofrance/geopolitique": [
+        "xdu"
+    ],
     "/rarehistoricalphotos/": [
         "TonyRL"
     ],
@@ -4526,9 +4554,10 @@
     "/rustcc/jobs": [
         "CcccFz"
     ],
-    "/sakurazaka46/blog/:id?": [
+    "/sakurazaka46/blog/:id?/:page?": [
         "victor21813",
-        "nczitzk"
+        "nczitzk",
+        "akashigakki"
     ],
     "/sakurazaka46/news": [
         "nczitzk"
@@ -5047,6 +5076,9 @@
     ],
     "/taiwannews/hot/:lang?": [
         "TonyRL"
+    ],
+    "/tangshufang/:category?": [
+        "nczitzk"
     ],
     "/taobao/zhongchou/:type?": [
         "xyqfer",
@@ -6731,9 +6763,7 @@
     "/yidoutang/case/:type": [],
     "/kaiyan/index": [],
     "/keyakizaka46/news": [],
-    "/hinatazaka46/news": [],
     "/keyakizaka46/blog": [],
-    "/hinatazaka46/blog": [],
     "/moxingnet": [],
     "/hubu/news/:type": [],
     "/dlmu/news/:type": [],
@@ -7036,7 +7066,6 @@
     "/porn-images-xxx/:type?/:name?": [],
     "/dcinside/board/:id": [],
     "/egameqq/room/:id": [],
-    "/gov/chinatax/latest": [],
     "/lizhi/user/:id": [],
     "/boston/:tag?": [],
     "/changku": [],
@@ -7078,7 +7107,6 @@
     "/jlu/oa": [],
     "/hfut/tzgg": [],
     "/onejav/:type/:key?": [],
-    "/curiouscat/user/:id": [],
     "/newsmth/account/:id": [],
     "/newsmth/section/:section": [],
     "/kotaku/story/:type": [],
