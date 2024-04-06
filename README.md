@@ -50,10 +50,6 @@ Logo designer [sheldonrrr](https://dribbble.com/sheldonrrr)
 -   [RSSAid](https://github.com/LeetaoGoooo/RSSAid) | RSSHub Radar for Android platform built with Flutter.
 -   [DocSearch](https://github.com/Fatpandac/DocSearch) | Link RSSHub DocSearch into Raycast
 
-## Join Us
-
-We welcome all pull requests. Suggestions and feedback are also welcomed [here](https://github.com/DIYgod/RSSHub/issues).
-
 Refer to [Join Us](https://docs.rsshub.app/joinus/)
 
 ## Deployment
