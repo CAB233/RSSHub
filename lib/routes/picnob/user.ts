@@ -1,4 +1,4 @@
-import { Route } from '@/types';
+import { Route, ViewType } from '@/types';
 import { getCurrentPath } from '@/utils/helpers';
 const __dirname = getCurrentPath(import.meta.url);
 
@@ -13,18 +13,32 @@ import puppeteer from '@/utils/puppeteer';
 
 export const route: Route = {
     path: '/user/:id',
+    categories: ['social-media', 'popular'],
+    example: '/picnob/user/xlisa_olivex',
+    parameters: { id: 'Instagram id' },
+    features: {
+        requireConfig: false,
+        requirePuppeteer: true,
+        antiCrawler: true,
+        supportBT: false,
+        supportPodcast: false,
+        supportScihub: false,
+    },
     radar: [
         {
             source: ['picnob.com/profile/:id/*'],
+            target: '/user/:id',
         },
     ],
-    name: 'Unknown',
+    name: 'User Profile - Picnob',
     maintainers: ['TonyRL', 'micheal-death'],
     handler,
+    view: ViewType.Pictures,
 };
 
 async function handler(ctx) {
-    const baseUrl = 'https://www.picnob.com';
+    // NOTE: 'picnob' is still available, but all requests to 'picnob' will be redirected to 'pixwox' eventually
+    const baseUrl = 'https://www.pixwox.com';
     const id = ctx.req.param('id');
     const url = `${baseUrl}/profile/${id}/`;
 
@@ -40,8 +54,8 @@ async function handler(ctx) {
             },
         });
         html = data;
-    } catch (error) {
-        if (error.message.includes('code 403')) {
+    } catch (error: any) {
+        if (error.message.includes('403')) {
             html = await puppeteerGet(url, browser);
             usePuppeteer = true;
         }
@@ -84,7 +98,7 @@ async function handler(ctx) {
                         ...new Set(
                             $('.post_slide a')
                                 .toArray()
-                                .map((a) => {
+                                .map((a: any) => {
                                     a = $(a);
                                     return {
                                         ori: a.attr('href'),
